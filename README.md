@@ -5,3 +5,4 @@ Front end: UI is written in HTML, CSS and Javascript
 Backend: Python and Flask 
 
 Database: mysql
+direct link of the project:- https://kajol5852.github.io/grocery-store/
