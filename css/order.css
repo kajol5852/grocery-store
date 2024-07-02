@@ -1,0 +1,212 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2px;
+    border: #040000;
+    padding: 100px;
+    background: url('https://img.freepik.com/premium-photo/shopping-basket-with-many-kind-vegetables-table-banner-design-copy-space-background_333547-14298.jpg?size=626&ext=jpg&ga=GA1.1.879191769.1719306780&semt=ais_user') no-repeat center center fixed;
+    background-size: cover;
+    color: #f7fafc;
+}
+
+h3{
+    
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    color: #f7fafc;
+    font-weight: bolder;
+    justify-content: center;
+}
+
+
+
+
+
+header {
+    color: rgb(9, 9, 9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    align-items: right;
+    background-color: #090909;
+    height: 50px;
+    width: 90px;
+}
+    
+
+
+.text center{
+    align-items:  left;
+    justify-content: left;
+    color: #f3efef;
+
+}
+
+.nav-button {
+    color: white;
+    background-color: #0a0a0a;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav-button i {
+    margin-right: 8px;
+}
+
+.nav-button:hover {
+    background-color: #ced1d076;
+}
+
+.content-page {
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #223924;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #f9f6f6;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #070707;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #006400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn-primary {
+    background-color: #f7faf7;
+    color:#040000;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.product-item .col-sm-4, .product-item .col-sm-3, .product-item .col-sm-2 {
+    margin-bottom: 10px;
+}
+
+.pull-right {
+    float: right;
+}
+
+input[readonly] {
+    background-color: #f9f9f9;
+}
+
+.product-box {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-item .btn-danger {
+    background-color: #d9534f;
+}
+
+.product-item .btn-danger:hover {
+    background-color: #c9302c;
+}
+.product-box-extra {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.total-price-box {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: transparent;
+}
+
+.total-price-box label {
+    font-weight: bold;
+    color: #f3efef;
+    font-size: 1rem;
+}
+
+.total-price-box input[type="text"] {
+    width: 45%;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.total-price-box input[type="text"]:read-only {
+    background-color: #f8f9fa;
+    cursor: not-allowed;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    color: #f7fafc;
+    font-weight: bolder;
+    font-size: 2rem;
+   
+
+}
+
+footer p1 {
+    margin: 0;
+    font-size: 16px; 
+    color: #f9f8f8;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px; 
+    color: #fffefe; 
+}

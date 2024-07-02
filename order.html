@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Product - Supermart</title>
+    <link rel="stylesheet" href="css/order.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/order.js"></script>
+</head>
+<body>
+    <header>
+        <button class="nav-button" onclick="window.location.href='index.html'">
+            <i class="fas fa-envelope"></i> Home
+        </button>
+    </header>
+    <div class="content">
+        <form id="productForm">
+            <div class="box-info" id="taskFormContainer">
+                <h3>New Product
+                    <input name="Customer Name" id="Customer Name" type="text" class="form-control" placeholder="Customer Name" style="max-width:230px; float: right; margin-top: -11px">
+                </h3>
+                <div class="input-container">
+                    <div class="input-box">
+
+                        <!-- Hidden Product Template -->
+                        <div class="product-box hidden">
+                            <div class="row product-item">
+                                <div class="col-sm-12">
+                                    <div class="box-info full p-3 mb-3 mt-0">
+                                        <div class="col-sm-4">
+                                            <label for="product">Choose Product</label>
+                                            <select name="product" class="form-control cart-product" style="max-width: 250px"></select>
+                                        </div>
+                                    </div>
+                                    <div class="input-box">
+                                        <label for="price">Price</label>
+                                        <div class="col-sm-3">
+                                            <input id="product_price" name="product_price" class="product-price" value="0.0">
+                                        </div>
+                                    </div>
+                                    <div class="input-box">
+                                        <label for="quantity">Quantity</label>
+                                        <input type="number" id="quantity" name="quantity" class="form-control product-qty" value="1">
+                                    </div>
+                                    <div class="input-box">
+                                        <span><b>Total</b></span>
+                                        <div class="col-sm-3">
+                                            <input id="item_total" name="item_total" class="product-total"></input><span> Rs</span>
+                                            <button class="btn btn-sm btn-danger pull-right remove-row" type="button">Remove</button>
+                                            <button class="btn btn-sm btn-secondary" type="button" id="addMoreButton">Add More</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    
+        <!-- Product Box Extra for dynamically added rows -->
+        <div class="product-box-extra" id="itemsInOrder"></div>
+    
+        <!-- Total Price Box -->
+        <div class="total-price-box">
+            <label for="product_grand_total">Total Price</label>
+            <input type="text" id="product_grand_total" name="product_grand_total" class="form-control" readonly>
+            <button class="btn btn-sm btn-primary" type="button" id="saveOrder">Save</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+<br>
+<footer>
+    <p>&copy; 2024 Go-Mart. All rights reserved.</p>
+</footer>
+</body>
+</html>
